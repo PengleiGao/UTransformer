@@ -17,6 +17,7 @@ Scenery consists of about 6,000 images, and we randomly select 1,000 images for 
 ### Building
 In addition, we prepare a new building facades dataset in different styles consisting of diverse and complicated building architecture. There are about 16,000 images in the training set and 1,500 images in the testing set. All the images are collected on the internet The data can be downloaded [here]()
 
+If you find the building data is helpful for your projects, please cite us as follows.
 
 ## Reference
 
