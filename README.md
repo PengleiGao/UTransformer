@@ -15,7 +15,7 @@ torchvision;
 Scenery consists of about 6,000 images, and we randomly select 1,000 images for evaluation. The training and test dataset can be down [here](https://github.com/z-x-yang/NS-Outpainting)
 
 ### Building
-In addition, we prepare a new building facades dataset in different styles consisting of diverse and complicated building architecture. There are about 16,000 images in the training set and 1,500 images in the testing set. All the images are collected on the internet The data can be downloaded [here](https://pan.baidu.com/s/1DhRn1BFm10GlfkQLRe56AA?pwd=msdf),code:msdf
+In addition, we prepare a new building facades dataset in different styles consisting of diverse and complicated building architecture. There are about 16,000 images in the training set and 1,500 images in the testing set. All the images are collected on the internet. The data can be downloaded [here](https://pan.baidu.com/s/1DhRn1BFm10GlfkQLRe56AA?pwd=msdf), password:msdf
 
 
 ## Citation
