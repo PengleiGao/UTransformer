@@ -1,5 +1,5 @@
 from .swin_transformer4 import SwinTransformer4
-from .trans_ablation import Ablation
+#from .trans_ablation import Ablation
 import torch
 import random
 
