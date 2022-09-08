@@ -18,6 +18,9 @@ Scenery consists of about 6,000 images, and we randomly select 1,000 images for 
 In addition, we prepare a new building facades dataset in different styles consisting of diverse and complicated building architecture. There are about 16,000 images in the training set and 1,500 images in the testing set. All the images are collected on the internet. The data can be downloaded [here](https://pan.baidu.com/s/1DhRn1BFm10GlfkQLRe56AA?pwd=msdf), password:msdf
 
 
+### Wikiart
+Wikiart dataset contains 45,503 training images and 19,492 testing images, which can be downloaded[here](https://github.com/cs-chan/ArtGAN/tree/master/WikiArt%20Dataset).
+
 ## Citation
 If you find the building data is helpful for your projects, please cite us as follows.
 ```
