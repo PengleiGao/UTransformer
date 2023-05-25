@@ -24,10 +24,13 @@ Wikiart dataset contains 45,503 training images and 19,492 testing images, which
 ## Citation
 If you find the building data is helpful for your projects, please cite us as follows.
 ```
-@article{gao2022generalised,
-  title={Generalised Image Outpainting with U-Transformer},
-  author={Gao, Penglei and Yang, Xi and Zhang, Rui and Huang, Kaizhu and Geng, Yujie},
-  journal={arXiv preprint arXiv:2201.11403},
-  year={2022}
+@article{gao2023generalized,
+  title={Generalized image outpainting with U-transformer},
+  author={Gao, Penglei and Yang, Xi and Zhang, Rui and Goulermas, John Y and Geng, Yujie and Yan, Yuyao and Huang, Kaizhu},
+  journal={Neural Networks},
+  volume={162},
+  pages={1--10},
+  year={2023},
+  publisher={Elsevier}
 }
 ```
