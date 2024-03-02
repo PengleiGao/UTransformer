@@ -2,15 +2,15 @@ import os
 
 os.environ['KMP_DUPLICATE_LIB_OK']='True'
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
-os.system('python -m pytorch_fid /Data_PHD/phd19_penglei_gao/outpainting/swin-unet/wikiart/2022-12-12T16-30-21_wikiart/result /Data_PHD/phd19_penglei_gao/outpainting/swin-unet/wikiart/2022-12-12T16-30-21_wikiart/input')
+os.system('python -m pytorch_fid /predict /input')
 from cal_IS import inception_score
 import numpy as np
 from PIL import Image
 import torch
 
 # imgs=[]
-# gt = '/Data_PHD/phd19_penglei_gao/outpainting/swin-unet/scenery/2022-12-12T16-17-18_scenery/input'
-# fake = '/Data_PHD/phd19_penglei_gao/outpainting/swin-unet/scenery/2022-12-12T16-17-18_scenery/result'
+# gt = '/input' #path of the input images
+# fake = '/predict' #path of the generated images
 # for f in os.listdir(fake):
 #     im= np.array(Image.open(os.path.join(fake, f))).transpose(2, 0, 1).astype(np.float32)[:3]
 #     im/=255
