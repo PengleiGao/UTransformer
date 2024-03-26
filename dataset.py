@@ -273,7 +273,7 @@ class dataset_arbi(Dataset):
             # mask_img[:,i:i + self.inputsize + 64*(self.pred_step-1),i:i + self.inputsize + 32*self.pred_step]=img
             mask_img[:, i:i + self.imgSize, i:i + self.imgSize] = img
         else:
-            mask_img[:, i:i + self.inputsize2, i:i + self.inputsize2] = img
+            mask_img[:, i:i + self.inputsize, i:i + self.inputsize] = img
 
         return img, img, mask_img, splitext(basename(name))[0]
 
